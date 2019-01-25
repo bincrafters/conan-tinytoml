@@ -1,5 +1,7 @@
 // #include <cpprest/json.h>
 #include <toml/toml.h>
+#include <ifstream>
+#include <iostream>
 
 int main()
 {
@@ -7,7 +9,7 @@ int main()
   toml::ParseResult pr = toml::parse(ifs);
 
   if (!pr.valid()) {
-    cout << pr.errorReason << endl;
+    std::cout << pr.errorReason << std::endl;
     return;
   }
 }
