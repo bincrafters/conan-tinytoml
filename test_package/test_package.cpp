@@ -9,6 +9,8 @@ int main()
 
   if (!pr.valid()) {
     std::cout << pr.errorReason << std::endl;
-    return;
+    return 1;
   }
+
+  return 0;
 }
