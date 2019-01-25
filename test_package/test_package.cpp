@@ -2,6 +2,6 @@
 
 int main()
 {
-  toml::ParseResult pr;
+  toml::FormatFlag ff;
   return 0;
 }
