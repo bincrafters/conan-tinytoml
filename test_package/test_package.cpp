@@ -1,6 +1,6 @@
 #include <toml/toml.h>
-#include <ifstream>
-#include <iostream>
+#include <fstream>
+#include <ostream>
 
 int main()
 {
