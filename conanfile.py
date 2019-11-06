@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 import os
 from conans import ConanFile, tools
 
@@ -11,7 +9,6 @@ class TinytomlConan(ConanFile):
     topics = ("conan", "tinytoml", "toml", "header-only")
     url = "https://github.com/bincrafters/conan-tinytoml"
     homepage = "https://github.com/mayah/tinytoml"
-    author = "Bincrafters <bincrafters@gmail.com>"
     license = "BSD-2-Clause"
     no_copy_source = True
     exports = ["LICENSE.md"]
