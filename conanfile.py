@@ -11,7 +11,6 @@ class TinytomlConan(ConanFile):
     homepage = "https://github.com/mayah/tinytoml"
     license = "BSD-2-Clause"
     no_copy_source = True
-    exports = ["LICENSE.md"]
     _source_subfolder = "source_subfolder"
 
     def source(self):
